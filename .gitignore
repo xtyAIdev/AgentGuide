@@ -21,3 +21,7 @@ external/ai-research-ebook/.astro/
 external/InterviewGuide/dist/
 external/InterviewGuide/node_modules/
 external/InterviewGuide/.astro/
+
+# MkDocs 构建产物
+site/
+.mkdocs-*/
