@@ -158,7 +158,7 @@
   {
     "id": "rag",
     "title": "高可用 RAG 系统实战",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "description": "> 高可用 RAG 的目标不是“永不失败”，而是在模型、向量库、数据源或外部 API 出问题时，系统能够限时失败、可观测、可降级、可恢复，并且不返回危险的伪答案。",
     "category": "实战",
     "tags": [],
     "level": "入门",
@@ -169,8 +169,8 @@
   },
   {
     "id": "agent",
-    "title": "从零构建 Agent 框架",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "title": "从零构建最小可用 Agent 框架",
+    "description": "> 手撕框架的目的不是重新发明 LangGraph，而是掌握 Agent runtime 的核心：消息、工具、策略、状态、循环、权限、追踪与恢复。",
     "category": "Agent",
     "tags": [],
     "level": "入门",
@@ -205,8 +205,8 @@
   },
   {
     "id": "agentscope",
-    "title": "AgentScope 入门",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "title": "AgentScope 入门与工程实践",
+    "description": "> AgentScope 是面向 Agent 与 Multi-Agent 应用的开发框架。学习它的重点不是记住某个版本的类名，而是理解消息、Agent、Tool、Memory、Pipeline 和运行时如何协作。",
     "category": "Agent",
     "tags": [],
     "level": "入门",
@@ -266,7 +266,7 @@
   {
     "id": "multi-agent",
     "title": "Multi-Agent 框架详解",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "description": "> Multi-Agent 的价值不是让多个模型“开会”，而是把上下文、工具、权限和责任边界拆开。只有分工、并行或独立验证带来可测收益时，才值得增加多个 Agent。",
     "category": "Agent",
     "tags": [],
     "level": "入门",
@@ -338,7 +338,7 @@
   {
     "id": "rag",
     "title": "RAG 全链路实战",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "description": "> RAG 的核心不是“向量库 + LLM”，而是让答案建立在可检索、可引用、可更新的外部证据上。一个完整系统包含离线索引链路、在线检索链路、生成链路和评测闭环。",
     "category": "Agent",
     "tags": [],
     "level": "入门",
@@ -361,8 +361,8 @@
   },
   {
     "id": "",
-    "title": "向量数据库基础",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "title": "向量数据库基础与选型",
+    "description": "> 向量数据库解决“在大量向量中找到相似对象”的问题。它是 RAG 的索引层，不负责文档解析、答案生成，也不能自动保证检索相关性。",
     "category": "Agent",
     "tags": [],
     "level": "入门",
@@ -372,9 +372,9 @@
     "featured": false
   },
   {
-    "id": "agent",
-    "title": "Agent 强化学习",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "id": "agent-sft",
+    "title": "Agent 强化学习：从 SFT 到策略优化",
+    "description": "> Agent 强化学习的目标不是让回答“更像人”，而是让策略在多步环境中更稳定地选择动作、调用工具并完成任务。它比普通文本偏好训练更难，因为奖励延迟、环境昂贵且轨迹具有随机性。",
     "category": "Agent",
     "tags": [],
     "level": "入门",
@@ -444,9 +444,9 @@
     "featured": false
   },
   {
-    "id": "langchain",
-    "title": "LangChain 框架指南",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "id": "langchain-langgraph",
+    "title": "LangChain 与 LangGraph 实战指南",
+    "description": "> LangChain 提供模型、Prompt、Tool、Retriever 等应用组件；LangGraph 提供有状态、可循环、可恢复的 Agent 编排。新项目不要从“堆 Chain”开始，而应先画清状态、节点和转移条件。",
     "category": "Agent",
     "tags": [],
     "level": "入门",
@@ -854,7 +854,7 @@
   {
     "id": "chain-of-thought",
     "title": "Chain-of-Thought 与规划",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "description": "> CoT 解决“如何形成中间推理”，规划解决“如何把目标转成可执行步骤”。在 Agent 中，最重要的不是让模型输出很长的思考，而是生成可验证、可执行、可更新的计划。",
     "category": "理论",
     "tags": [],
     "level": "入门",
@@ -890,7 +890,7 @@
   {
     "id": "transformer",
     "title": "Transformer 架构详解",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "description": "> Transformer 是现代大语言模型的基础。理解它不需要先掌握所有数学细节，但必须弄清 Token、Embedding、Attention、位置编码、前馈网络和生成过程如何连接。",
     "category": "理论",
     "tags": [],
     "level": "入门",
@@ -912,9 +912,9 @@
     "featured": false
   },
   {
-    "id": "agentbench",
-    "title": "AgentBench 详解",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "id": "agentbench-agent",
+    "title": "AgentBench 与 Agent 评测",
+    "description": "> Agent 评测不能只看最终回答。一个系统可能“答对了”，却调用了错误工具、泄漏隐私、花费过高，或依靠偶然性成功。完整评测必须覆盖结果、过程、安全、成本与稳定性。",
     "category": "理论",
     "tags": [],
     "level": "入门",
@@ -962,7 +962,7 @@
   {
     "id": "agent",
     "title": "Agent 技术演进史",
-    "description": "> 🚧 本文档正在编写中，敬请期待...",
+    "description": "> Agent 并不是突然随着 ChatGPT 出现的新概念。它经历了符号主义、统计学习、深度学习、基础模型和工具型智能体五个阶段。理解这条主线，才能分清哪些是新能力，哪些只是旧思想的新实现。",
     "category": "理论",
     "tags": [],
     "level": "入门",
